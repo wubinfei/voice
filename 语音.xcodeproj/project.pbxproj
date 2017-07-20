@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		762AFE8D1F2046E30024BCEC /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 762AFE8C1F2046E30024BCEC /* testViewController.m */; };
 		762F055C1F034C8400009135 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 762F055B1F034C8400009135 /* main.m */; };
 		762F055F1F034C8400009135 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 762F055E1F034C8400009135 /* AppDelegate.m */; };
 		762F05621F034C8400009135 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 762F05611F034C8400009135 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		762AFE8B1F2046E30024BCEC /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		762AFE8C1F2046E30024BCEC /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 		762F05571F034C8400009135 /* 语音.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "语音.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		762F055B1F034C8400009135 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		762F055D1F034C8400009135 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -112,6 +115,8 @@
 				762F05631F034C8400009135 /* Main.storyboard */,
 				762F05661F034C8400009135 /* Assets.xcassets */,
 				762F05681F034C8400009135 /* LaunchScreen.storyboard */,
+				762AFE8B1F2046E30024BCEC /* testViewController.h */,
+				762AFE8C1F2046E30024BCEC /* testViewController.m */,
 				762F056B1F034C8400009135 /* Info.plist */,
 				762F055A1F034C8400009135 /* Supporting Files */,
 			);
@@ -290,6 +295,7 @@
 			files = (
 				762F05621F034C8400009135 /* ViewController.m in Sources */,
 				762F055F1F034C8400009135 /* AppDelegate.m in Sources */,
+				762AFE8D1F2046E30024BCEC /* testViewController.m in Sources */,
 				762F055C1F034C8400009135 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -526,6 +532,7 @@
 				762F05861F034C8400009135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		762F05871F034C8400009135 /* Build configuration list for PBXNativeTarget "语音Tests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +541,7 @@
 				762F05891F034C8400009135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		762F058A1F034C8400009135 /* Build configuration list for PBXNativeTarget "语音UITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +550,7 @@
 				762F058C1F034C8400009135 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
